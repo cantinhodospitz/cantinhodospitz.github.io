@@ -1,0 +1,268 @@
+html, body{
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-link{
+    color: #ff7904;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.055);
+}
+
+.navbar-item{
+    border-bottom: 2px solid black;
+}
+
+
+.navbar-brand{
+    color: #e0822fd4;
+    font-weight: bold;
+}
+.section-1{
+    background-color: #efe2bf;
+}
+
+.section-2{
+    background-color: #f6b19a;
+}
+
+.section-3{
+    background-color: #f49d9f;
+}
+
+.section-4{
+    background-color: #efe2bf;
+}
+
+.section-6{
+    background-color: #f6b19a;
+}
+.h1-t{
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    text-shadow: #000 1px 1px 1px;
+}
+
+.p-t{
+    color: rgb(0, 0, 0);
+}
+
+.btn-1{ 
+ color: #ff7904;
+ font-weight: 500;
+}
+
+.list-group-item{
+    background-color: #ffffff00;
+    border-color: #00000000;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.076);
+}
+
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; 
+  }
+
+.filhote-t{
+    color: white;
+}
+.cliente{
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.494);
+}
+
+.carousel-control-prev-icon{
+    background-color: #c14004;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+.carousel-control-next-icon{
+    background-color: #c14004;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+
+@media (min-width: 1100px){ /* Para PC */
+
+    .section-1{
+        padding-left: 30px;
+        padding-bottom: 50px;
+       } 
+
+    .navbar-brand{
+        margin-left: 40px;
+        margin-right: 100px;
+    }
+
+    .nav-item{
+        padding-left: 20px;
+        font-size: 18px;
+    }
+
+    .p-menu{
+       color: #ff7904;
+       padding-left: 210px;
+       padding-right: 100px;
+    }
+
+    .btn-menu{
+        color: #0F57FB;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: bold;
+    }
+
+
+    .p-t{
+        font-size: 18px;
+        padding-right: 0px;
+        word-spacing: 5px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .esquerdo{
+    margin-top: 170px;
+    padding-left: 120px;
+    }
+
+    .h1-t{
+    font-size: 54px;
+    }
+
+    .btn-1{ 
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+       }
+       
+
+    .filhote-meio{
+        border-left: 1px solid rgba(0, 0, 0, 0.149);
+        border-right: 1px solid rgba(0, 0, 0, 0.149);
+    }
+}
+
+@media (max-width: 889px){ /* Para CELULAR */
+
+   .section-1{
+    padding-left: 30px;
+    padding-bottom: 30px;
+   } 
+
+   .h1-t{
+    font-size: 32px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-right: 20px;
+    }
+    .p-t{
+        font-size: 14px;
+        margin-bottom: 30px;
+        padding-right: 20px;
+        font-weight: 400;
+        text-align: justify;
+        word-spacing: 5px;
+    }
+
+    .img-1{
+        margin-top: 20px;
+        padding-right: 10px;
+        object-fit: cover;
+    }
+    
+    .btn-1{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .navbar-toggler{
+        background-color: rgba(152, 107, 49, 0.807);
+        color: #0F57FB;
+    }
+    .navbar-toggler-icon{
+        color: #0F57FB;
+    }
+
+    .show{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-bottom: -30px;
+    }
+
+    .nav-link{
+        color: #9f4b01;
+        background-color: rgba(255, 123, 0, 0.308);
+        padding: 20px;
+    }
+
+    .img-2{
+        padding-top: 50px;
+    }
+
+    h5{
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .h1-2{
+        padding-bottom: 20px;
+        color: white;
+        text-shadow: #000 2px 2px 2px;
+    }
+
+    .p-2{
+        padding-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .btn-2{
+        margin-bottom: 30px;
+    }
+
+    .map-1{
+        width:20px;
+        height:300px;
+    }
+}
+.emergency{
+    color: white;
+}
+
+.btn-3{
+    background-color: white;
+    font-size: 16px;
+    color: #0F57FB;
+    font-weight: bold;
+}
+
+.p-emergency{
+    font-size: 18px;
+}
+
+.bi-star-fill{
+    color: rgb(250, 149, 41);
+}
+
+.test{
+    width: 70px;
+    height: 70px;
+}
+
+.bg-7{
+    background-color: #0F57FB;
+}
+
+.credits{
+    color: rgb(123, 123, 123);
+}

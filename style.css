@@ -134,7 +134,12 @@ html, body{
     .h1-t{
     font-size: 54px;
     }
-
+    
+    .h1-2{
+    color: white;
+    text-shadow: #000 2px 2px 2px;
+    }
+    
     .btn-1{ 
         padding-left: 25px;
         padding-right: 25px;

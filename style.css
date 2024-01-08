@@ -16,30 +16,94 @@ html, body{
     color: #e0822fd4;
     font-weight: bold;
 }
+
+.section-1::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('pngegg.png'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover; /* Para cobrir todo o elemento */
+  background-position: center; /* Centralizar a imagem */
+  opacity: 0.1; /* Ajuste a opacidade conforme necessário */
+}
 .section-1{
     background-color: #efe2bf;
 }
+
+.section-2::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 350px;
+    width: 100%;
+    height: 100%;
+    background-image: url('patas-diag.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Para cobrir todo o elemento */
+    background-position: center; /* Centralizar a imagem */
+    opacity: 0.05; /* Ajuste a opacidade conforme necessário */
+    z-index: -1;
+  }
 
 .section-2{
     background-color: #f6b19a;
 }
 
+.t-filhotes{
+    text-shadow: 2px 3px salmon;
+}
+
+.section-3::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('fundo-f.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: repeat; /* Para cobrir todo o elemento */
+    background-position: center; /* Centralizar a imagem */
+    opacity: 0.06; /* Ajuste a opacidade conforme necessário */
+    z-index: -1;
+  }
+
 .section-3{
     background-color: #f49d9f;
 }
 
+.section-4::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('patas-coracao.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: repeat; /* Para cobrir todo o elemento */
+    background-position: center; /* Centralizar a imagem */
+    opacity: 0.05; /* Ajuste a opacidade conforme necessário */
+    z-index: -1;
+  }
+
 .section-4{
     background-color: #efe2bf;
+    
 }
 
 .section-6{
     background-color: #f6b19a;
+    background-image: url('4patas-ico.png');
+    background-position: top;
+    background-repeat: repeat;
 }
+
 .h1-t{
     color: white;
     font-size: 38px;
     font-weight: bold;
-    text-shadow: #000 1px 1px 1px;
+    text-shadow: #000 1px 2px 2px;
 }
 
 .p-t{
@@ -55,6 +119,7 @@ html, body{
     background-color: #ffffff00;
     border-color: #00000000;
     border-bottom: 1px solid rgba(0, 0, 0, 0.076);
+    margin-left: 30px;
 }
 
 .whatsapp-btn {
@@ -66,6 +131,7 @@ html, body{
 
 .filhote-t{
     color: white;
+    text-shadow: 1px 1px black;
 }
 .cliente{
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.494);
@@ -161,14 +227,41 @@ html, body{
     padding-bottom: 30px;
    } 
 
+   .section-1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65%;
+    background-image: url('pngegg.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Para cobrir todo o elemento */
+    background-position: right; /* Centralizar a imagem */
+    opacity: 0.1; /* Ajuste a opacidade conforme necessário */
+  }
+
+  .section-2::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url('patas-diag.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Para cobrir todo o elemento */
+    background-position: center; /* Centralizar a imagem */
+    opacity: 0.06; /* Ajuste a opacidade conforme necessário */
+    z-index: -1;
+  }
+
    .h1-t{
     font-size: 32px;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 15px;
     padding-right: 20px;
     }
     .p-t{
-        font-size: 14px;
+        font-size: 16px;
         margin-bottom: 30px;
         padding-right: 20px;
         font-weight: 400;
@@ -187,12 +280,19 @@ html, body{
         padding-right: 10px;
         padding-top: 10px;
         padding-bottom: 10px;
+        font-size: 18px;
     }
 
     .navbar-toggler{
         background-color: rgba(152, 107, 49, 0.807);
         color: #0F57FB;
     }
+
+    .navbar-toggler:focus {
+        outline: 2px solid rgba(0, 0, 0, 0.5);
+        box-shadow:  1px 1px 3px black; 
+      }
+    
     .navbar-toggler-icon{
         color: #0F57FB;
     }
@@ -207,8 +307,9 @@ html, body{
 
     .nav-link{
         color: #9f4b01;
-        background-color: rgba(255, 123, 0, 0.308);
+        background-color: rgba(255, 123, 0, 0.527);
         padding: 20px;
+        font-size: 16px;
     }
 
     .img-2{
@@ -240,10 +341,6 @@ html, body{
         height:300px;
     }
 }
-.emergency{
-    color: white;
-}
-
 .btn-3{
     background-color: white;
     font-size: 16px;
@@ -251,21 +348,14 @@ html, body{
     font-weight: bold;
 }
 
-.p-emergency{
-    font-size: 18px;
-}
-
-.bi-star-fill{
-    color: rgb(250, 149, 41);
-}
-
-.test{
-    width: 70px;
-    height: 70px;
-}
-
-.bg-7{
-    background-color: #0F57FB;
+.teste2{
+    width: auto;
+    height: 250px;
+    background-image: url('pexels-kateryna-babaieva-5465338\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    margin-bottom: 30px;
 }
 
 .credits{

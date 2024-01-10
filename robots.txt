@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://cantinhodospitz.github.io/sitemap.xml

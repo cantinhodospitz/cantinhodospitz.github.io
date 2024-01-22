@@ -27,7 +27,7 @@ html, body{
 .section-2{
     background-image: url('patas-diag.webp');
     background-size: cover;
-    background-position: top;
+    background-position: center;
     background-color: #f6b19a;
 }
 
@@ -185,32 +185,9 @@ html, body{
     padding-bottom: 30px;
    } 
 
-   .section-1::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 65%;
-    background-image: url('pngegg.png'); /* Substitua pelo caminho da sua imagem */
-    background-size: cover; /* Para cobrir todo o elemento */
-    background-position: right; /* Centralizar a imagem */
-    opacity: 0.1; /* Ajuste a opacidade conforme necessário */
-  }
-
-  .section-2::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    background-image: url('patas-diag.png'); /* Substitua pelo caminho da sua imagem */
-    background-size: cover; /* Para cobrir todo o elemento */
-    background-position: center; /* Centralizar a imagem */
-    opacity: 0.06; /* Ajuste a opacidade conforme necessário */
-    z-index: -1;
-  }
+   .section-2{
+    background-size: 430%;
+   }
 
    .h1-t{
     font-size: 32px;
